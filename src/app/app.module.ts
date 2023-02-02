@@ -7,16 +7,20 @@ import { AppComponent } from './app.component';
 
 // primeng
 import {ButtonModule} from 'primeng/button';
+import { TableComponent } from './components/table/table.component';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    ButtonModule
+    ButtonModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
